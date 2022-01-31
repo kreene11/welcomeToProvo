@@ -63,11 +63,11 @@ p {
 .name {
     /* margin-bottom: 5px; */
     font-size: 2em;
-    color: rgb(101, 181, 250);
+    color: #15025a;
 }
 
 .details {
-    color: rgb(101, 181, 250);
+    color: #070020;
 }
 
 .top {
@@ -84,7 +84,7 @@ p {
 }
 
 .attractionCard {
-    background-color: #017249;
+    /* background-color: #017249; */
     display: flex;
     justify-content: center;
     width: 100%;
