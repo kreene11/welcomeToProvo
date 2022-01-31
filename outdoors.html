@@ -3,10 +3,157 @@
     <head>
         <title>Visit Provo</title>
         <link rel = 'stylesheet' href='main.css'/>
+        <style>
+            .falls {
+                width: 100%;
+                display: block; /* make sure no extra space is added below the image */
+            }
+            .provoriver {
+                width: 100%;
+                display: block; /* make sure no extra space is added below the image */
+            }
+            .littleleague {
+                width: 100%;
+                display: block; /* make sure no extra space is added below the image */
+            }
+            .hikethey {
+                width: 100%;
+                display: block; /* make sure no extra space is added below the image */
+            }
+            .trails {
+                text-align: center;
+                background-color: #000;
+                float: left;
+                color: #fff;
+                padding: 20px;
+                margin: 0px;
+                width: 30%;
+            }
+            .recreation {
+                text-align: center;
+                background-color: #000;
+                float: left;
+                color: #fff;
+                padding: 20px;
+                margin: 0px;
+                width: 30%;
+            }
+            .community {
+                text-align: center;
+                float: left;
+                width: 30%;
+                color: #fff;
+                padding: 20px;
+                margin: 0px;
+            }
+            .mylinks {
+                overflow: hidden; /* Makes the div take up the whole width of the page */
+                background-color: #000;
+            }
+            a:link {
+                color: blue;
+                text-decoration: none;
+            }
+            a:visited {
+                color: blue;
+            }
+            a:hover {
+                color: aqua;
+                text-decoration: underline;
+            }
+            a:active {
+                color: red;
+            }
+            @media (min-width: 48em) {
+                .outdoor_pictures {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-gap: 20px;
+                }
+
+                .outdoor_pictures img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+        </style>
     </head>
-    <body>
-        <div class = 'main_body'>
-            
+    <body class = 'outdoors_body'>
+        <div class="outdoor_photo">
+            <img class = 'falls' src="/photos/bridalfalls.jpg">
+        </div>
+        <div class="mylinks">
+            <div class="trails">
+                <h2>Trails</h2>
+                <h4><a class = "michaellinks" href = "https://www.alltrails.com/trail/us/utah/bridal-veil-falls-trail--2" target="_blank">Bridal Veil Falls</a></h4>
+                <h4><a class = "michaellinks" href = "https://www.alltrails.com/trail/us/utah/mount-timpanogos-trail-from-aspen-grove" target="_blank">Mount Timpanogas</a></h4>
+                <h4><a class = "michaellinks" href = "https://www.alltrails.com/trail/us/utah/the-y-mountain-trail" target="_blank">Y Mountain</a></h4>
+            </div>
+            <div class ="community">
+                <h2>Community</h2>
+                <h4><a class = "michaellinks" href = "https://www.provo.org/departments/parks" target="_blank">Parks</a></h4>
+                <h4><a class = "michaellinks" href = "https://www.provo.org/departments/recreation/sports" target="_blank">Youth Sports</a></h4>
+                <h4><a class = "michaellinks" href = "https://www.provo.org/community/events-in-provo" target="_blank">Events</a></h4>
+            </div>
+            <div class ="recreation">
+                <h2>Recreation</h2>
+                <h4><a class = "michaellinks" href = "https://www.timpanogosgolf.com/" target="_blank">Golf</a></h4>
+                <h4><a class = "michaellinks" href = "https://www.provo.org/community/outdoor-activities/disc-golf-in-provo" target="_blank">Disc Golf</a></h4>
+                <h4><a class = "michaellinks" href = "https://www.proraftingtours.com/outdoor-adventures/river-trips/international/united-states/utah/provo-river/self-guided-rentals/kayaks/" target="_blank">Kayak</a></h4>
+            </div>
+        </div>
+            <div class="outdoor_pictures">
+                <div class="od">
+                    <img class = "provoriver" src="/photos/provoriver.jpg">
+                </div>
+                <div class="od">
+                    <img class = "littleleague" src="/photos/littleleague.jpg">
+            </div>
+            <div class="od">
+                <img class = "hikethey" src="/photos/hikethey.jpg">
+            </div>
         </div>
     </body>
 </html>
+
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <title>Visit Provo</title>
+        <link rel = 'stylesheet' href='main.css'/>
+        <style>
+            body.outdoors_body {
+            background: url(photos/bridalfalls.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+            .box {
+                float: left;
+                margin: 30px;
+                background-color: white;
+                border-radius: 25px;
+                padding-bottom: 100px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        </style>
+    </head>
+    <body class = 'outdoors_body'>
+        <div class = 'box left-box'>
+            <h1>Trails</h1>
+            <ul>
+                <li>Stuff</li>
+                <li>More stuff</li>
+            </ul>
+        </div>
+        <div class = 'box center-box'>
+            <h1>Outdoor Recreation</h1>
+        </div>
+        <div class = 'box right-box'>
+            <h1>Community Activities</h1>
+        </div>
+    </body>
+</html> -->
