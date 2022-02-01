@@ -1,64 +1,65 @@
-
-    h3 {
-        font-size: 50px;
-      }
+h3 {
+  font-size: 50px;
+}
+.topnav {
+  margin-top: 20px;
+  height: 100px;
+  background-color: #33521E;
+  border: 1px solid #fdfdfd;
+}
+.topnav img {
+  margin-top:0px;
+}
 .topnav h1 {
-    font-size: 50px;
-    color:#0b091d;
+  display:inline-block;
+  margin-top: 35px;
+    font-size: 40px;
+    color:white;
     font-family: 'Crete Round', serif;
     margin-left: 20 px;
-    float:left;
-    margin: 0px;
-    width: 50%;
-
+    /* margin: 0px; */
+    width: 43%;
 }
-
 .topnav nav{
-    width: 50%;
+  margin-top: 35px;
+    width: 43%;
     float:right;
     list-style-type: none;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     padding: 0;
     display:block;
-    border: 1px solid #fdfdfd;
+    
     text-align: center;
     font-family: 'Crete Round', serif;
 }
 .nav-link:link
 {
-   color: #0b091d;
+   color: white;
    text-decoration: none;
 }
 .nav-link:visited
 {
-   color: #0b091d;
+   color: white;
    text-decoration: none;
 }
 .nav-link:hover
 {
-   color: #0b091d;
+   color: white;
    text-decoration: none;
 }
 .nav-link:active
 {
-   color: #0b091d;
+   color: white;
    text-decoration: none;
 }
 .navbar-custom {
-    color:#0b091d;
-    background-color: white;
+    color:white;
+    background-color: #33521E;
     font-size: 25px;
 }
 
-
-.by {
-    color:#281c6e;
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
 body.bgpic {
-    background: url(alpineloop.png);
+    background: url(photos/alpineloop.png);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -73,27 +74,28 @@ body.bgpic {
     grid-column-gap: 10px;
     grid-row-gap: 15px;
   }
-  .image img {
-    width: 100%;
-  }
-      h2 {
-        font-size: 20px;
-      }
-      li {
-        display: inline;
-      }
-      .quote {
-        margin: auto;
-        font-size: 40px;
-        color: #281c6e;        /* Light gray */
-        font-style: italic;
-        background-color: #ded9f5;
-      }
+.image img {
+  width: 100%;
+}
+h2 {
+  font-size: 20px;
+}
+li {
+  display: inline;
+}
+.quote {
+  margin: auto;
+  font-size: 40px;
+  color: #281c6e;        /* Light gray */
+  font-style: italic;
+  background-color: #ded9f5;
+}
 
-      footer {
-          background-color: rgb(194, 194, 248);
+footer {
+  float:bottom;
+   background-color: #33521E;
           height: 50px;
           font-size: 25px;
-          color:#383083;
+          color: white;
       }
       
