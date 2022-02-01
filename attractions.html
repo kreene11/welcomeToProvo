@@ -2,87 +2,104 @@
 <html>
 
   <head>
+    <meta charset='UTF-8'/>
+    <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="/main.css" />
     <link rel="stylesheet" href="/attractions.css" />
     <title>Provo Attractions</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel='stylesheet' href='main.css'/>
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet">
   </head>
 
-<body>
-  <nav class="navbar navbar-expand-lg narbar-light navbar-dark" style="background-color: #000352;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Visit Provo</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-link" href="index.html">Home</a>
-          <a class="nav-link" href="jobs.html">Jobs</a>
-          <a class="nav-link" href="outdoors.html">Outdoors</a>
-          <a class="nav-link active" aria-current="page" href="#">Attractions</a>
+  <body>
+    <div class="topnav"><img src="photos/logo2.png"><h1>Visit Provo</h1>
+      <nav class="navbar navbar-expand-lg navbar-custom">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav" style="margin-left: auto;">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="outdoors.html">Outdoors</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="jobs.html">Jobs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="attractions.css">Attractions</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      </div><br>
+
+    <div class="top">
+      <div class="topPicture"><img src="/photos/CenterStreet2.JPG" width="100%"/></div>
+      <h1 class="headName" style="font-size:14vw">Attractions</h1>
+    </div>
+
+    <!-- Attraction cards -->
+  <div class="cards">
+    <div class="attractionCard">
+      <div class="picture"><img src="photos/CenterStreet.JPG" width = "150"/></div>
+        <div class="info">
+          <div class="name"><p class='title'>Center Street</p></div>
+          <div class="details">
+              <p>Visit historic downtown and see where Provo started.</p>
+          </div>
+      </div>
+    </div>
+
+    <div class="seperator" style='padding-top: 1px'></div>
+
+    <div class="attractionCard">
+      <div class="picture"><img src="photos/SplashSummit.JPG" width = "150"/></div>
+        <div class="info">
+          <div class="name"><p class='title'>Splash Summit</p></div>
+          <div class="details">
+              <p>Enjoy a cool splash of water at Provo's coolest waterpark</p>
         </div>
       </div>
     </div>
-  </nav>
 
-  <div class="top">
-    <div class="topPicture"><img src="/photos/CenterStreet2.JPG" width = "100%"/></div>
-    <h1 class="headName" style="font-size:14vw">Attractions</h1>
+    <div class="seperator" style='padding-top: 1px'></div>
+
+    <div class="attractionCard">
+      <div class="picture"><img src="photos/BoardGames.jpg" width = "150"/></div>
+        <div class="info">
+          <div class="name"><p class='title'>Good Move Cafe</p></div>
+          <div class="details">
+              <p>Great for a date or a game night with the friends. Includes unlimited access to board games and and your choice of a great meal.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="seperator" style='padding-top: 1px'></div>
+
+    <div class="attractionCard">
+      <div class="picture"><img src="photos/JDawgs.JPG" width = "150"/></div>
+      <div class="info">
+          <div class="name"><p class='title'>JDawgs</p></div>
+          <div class="details">
+              <p>The classic Provo meal. What was originally created by BYU students has turned into a great food chain.</p>
+          </div>
+      </div>
+    </div>
   </div>
+  <div class="seperator" style='padding-top: 1px'></div>
 
-  <!-- Attraction cards -->
-  
-<div class="attractionCard">
-    <div class="picture"><img src="/photos/CenterStreet.JPG" width = "150"/></div>
-    <div class="info">
-        <div class="name"><p class='title'>Center Street</p></div>
-        <div class="details">
-            <p>Visit historic downtown and see where Provo started.</p>
-        </div>
-    </div>
-</div>
-
-<div class="seperator" style='padding-top: 1px'></div>
-
-<div class="attractionCard">
-    <div class="picture"><img src="/photos/SplashSummit.JPG" width = "150"/></div>
-    <div class="info">
-        <div class="name"><p class='title'>Splash Summit</p></div>
-        <div class="details">
-            <p>Enjoy a cool splash of water at Provo's coolest waterpark</p>
-        </div>
-    </div>
-</div>
-
-<div class="seperator" style='padding-top: 1px'></div>
-
-<div class="attractionCard">
-    <div class="picture"><img src="/photos/BoardGames.jpg" width = "150"/></div>
-    <div class="info">
-        <div class="name"><p class='title'>Good Move Cafe</p></div>
-        <div class="details">
-            <p>Great for a date or a game night with the friends. Includes unlimited access to board games and and your choice of a great meal.</p>
-        </div>
-    </div>
-</div>
-
-<div class="seperator" style='padding-top: 1px'></div>
-
-<div class="attractionCard">
-    <div class="picture"><img src="/photos/JDawgs.JPG" width = "150"/></div>
-    <div class="info">
-        <div class="name"><p class='title'>JDawgs</p></div>
-        <div class="details">
-            <p>The classic Provo meal. What was originally created by BYU students has turned into a great food chain.</p>
-        </div>
-    </div>
-</div>
-<div class="seperator" style='padding-top: 1px'></div>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+  <footer>To see more work from Rachel Fullerton, Analeigh Howard, Katelyn Hull, and Michael Chase see this <a href="https://github.com/kreene11/welcomeToProvo.git" target="_blank">link</a>.</footer>
 </html>
