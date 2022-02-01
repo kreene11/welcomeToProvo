@@ -1,42 +1,38 @@
 body {
-    color: #070020;
+    color: #33521e;
     font-size: 18px;
 }
 
+* {
+    font-family: 'Crete Round', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Helvetica", "Arial", sans-serif;
     font-weight: normal;
     text-align: center;
+    padding: 15px;
 }
 
 h1 {
     font-size: 2em;
-    padding: 15px;
 }
 
 h2 {
     font-size: 1.6em;
-    padding: 15px;
 }
 
 h3 {
     font-size: 1.2em;
-    padding: 15px;
 }
 
 img {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    padding-top: 10px;
     padding-bottom: 10px;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* background-color: #0e023b; */
 }
 
 p {
@@ -63,36 +59,50 @@ p {
 .name {
     /* margin-bottom: 5px; */
     font-size: 2em;
-    color: #15025a;
+    color: #33521e;
 }
 
 .details {
-    color: #070020;
-}
-
-.top {
-    /* margin: 3%; */
-    position: relative;
+    color: #415237;
 }
 
 .headName {
-    position: absolute;
-    color: rgb(255, 255, 255);
-    top: 50%;
+    position: relative;
+    color: white;
+    top: -11vh;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
+.top {
+    max-height: 115vh;
+}
+
+.topPicture {
+    max-height: 80vh;
+}
+
+.cards {
+    size: 90%;
+    justify-content: left;
+    margin-top: 25px;
+    margin-left: auto;
+    margin: 1.5em auto;
+    max-width: 600px;
+    column-gap: 1.5em;
+}
+
 .attractionCard {
-    /* background-color: #017249; */
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 90%;
     margin-left: 10px;
     margin-right: 10px;
-    padding-right: 30px;
+    position: relative;
+    left: 20px;
 }
 
 .picture {
     padding-left: 10px;
+    padding-top: 10px;
 }
