@@ -21,10 +21,8 @@
     width: 43%;
     float:right;
     list-style-type: none;
-    /* margin-top: 5px; */
     padding: 0;
     display:block;
-    
     text-align: center;
     font-family: 'Crete Round', serif;
 }
@@ -112,4 +110,3 @@ footer {
   font-size: 20px;
   color: white;
 }
-      
