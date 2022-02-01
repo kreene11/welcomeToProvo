@@ -1,103 +1,206 @@
-
-    h3 {
-        font-size: 50px;
-      }
+.topnav {
+  margin-top: 40px;
+  height: 100px;
+  background-color: #33521E;
+  border: 1px solid #fdfdfd;
+}
+.topnav img {
+  margin-top:0px;
+}
 .topnav h1 {
-    font-size: 50px;
-    color:#0b091d;
+  display:inline-block;
+  margin-top: 30px;
+    font-size: 40px;
+    color:white;
     font-family: 'Crete Round', serif;
     margin-left: 20 px;
-    float:left;
-    margin: 0px;
-    width: 50%;
-
+    width: 43%;
 }
-
 .topnav nav{
-    width: 50%;
+  margin-top: 30px;
+    width: 43%;
     float:right;
     list-style-type: none;
-    margin-top: 5px;
     padding: 0;
     display:block;
-    border: 1px solid #fdfdfd;
     text-align: center;
     font-family: 'Crete Round', serif;
 }
 .nav-link:link
 {
-   color: #0b091d;
+   color: white;
    text-decoration: none;
 }
 .nav-link:visited
 {
-   color: #0b091d;
+   color: white;
    text-decoration: none;
 }
 .nav-link:hover
 {
-   color: #0b091d;
+   color: white;
    text-decoration: none;
 }
 .nav-link:active
 {
-   color: #0b091d;
+   color: white;
    text-decoration: none;
 }
 .navbar-custom {
-    color:#0b091d;
-    background-color: white;
+    color:white;
+    background-color: #33521E;
     font-size: 25px;
 }
 
-
-.by {
-    color:#281c6e;
-    font-size: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
 body.bgpic {
-    background: url(alpineloop.png);
+    background: url(photos/alpineloop.png);
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
+    background-position:center center;
 
 }
- .welcome {
-     font-size: 25px;
-     font-family:Verdana, Geneva, Tahoma, sans-serif;
+body h2 {
+  font-family: 'Crete Round', serif;
+  color:white;
+  float:left;
+  width:50%;
+  height:80%;
+  padding:100px;
+  font-size:60px;
+  line-height:100px;
+   margin-top:200px; 
+  text-align: center;
+}
+.roadbutton1 {
+  display:block;
+  width:50%;
+  height: 90%;
+  padding: 75px;
+  float:right;
+  font-family: 'Crete Round', serif;
+  color: white;
+  font-size: 40px;
+  margin-bottom:75px;
+  text-align: center;
+}
+a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
  }
-.pic {
-    display: grid;
-    grid-template: auto auto auto / 1fr 1fr 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 15px;
+ div.buttons {
+   display: block;
+   background-color: #7f9e6a;
+   padding: 40px;
+   width: 275px;
+   height: auto;
+ }
+h2 {
+  font-size: 20px;
+}
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:100%;
+  display:block;
+  float:bottom;
+  background-color: #33521E;
+  height: 10%;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+}
+@media only screen and (max-width: 400px) {
+  .topnav h1{
+    font-size: 30px;
   }
-  .image img {
+  body h2{
+    float: none;
+    margin-top: 0px;   
+     width: 100%;
+     height: 45%;
+     padding: 20px;
+  }
+  .roadbutton1 {
+    float: none;
     width: 100%;
+    height: 45%;
+    margin-bottom: 450px;
+    padding: 50px;
   }
-      h2 {
-        font-size: 20px;
-      }
-      li {
-        display: inline;
-      }
-      .quote {
-        margin: auto;
-        font-size: 40px;
-        color: #281c6e;        /* Light gray */
-        font-style: italic;
-        background-color: #ded9f5;
-      }
+  .footer {
+    font-size: 10px;
+    height: 20%;
+  }
+}
 
-      footer {
-          background-color: rgb(194, 194, 248);
-          height: 50px;
-          font-size: 25px;
-          color:#383083;
-      }
-<<<<<<< HEAD
-      
-=======
-      
->>>>>>> 7f9cd801bd67aeae3de810a960db2b02574b0f26
+.seperator {
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  width: 200px;
+  box-sizing: border-box;
+}
+
+.info {
+  margin-left: 25px;
+}
+
+.name {
+  /* margin-bottom: 5px; */
+  font-size: 2em;
+  color: #33521e;
+}
+
+.details {
+  color: #415237;
+}
+
+.headName {
+  position: relative;
+  text-align: center;
+  
+  color: white;
+  top: -11vh;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top {
+  max-height: 115vh;
+}
+
+.topPicture {
+  max-height: 80vh;
+}
+
+.cards {
+  size: 90%;
+  justify-content: left;
+  margin-top: 25px;
+  margin-left: auto;
+  margin: 1.5em auto;
+  max-width: 600px;
+  column-gap: 1.5em;
+}
+
+.attractionCard {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: relative;
+  left: 20px;
+  padding-bottom: 25px;
+}
+
+.picture {
+  padding-left: 10px;
+  padding-top: 10px;
+}
