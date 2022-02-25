@@ -5,7 +5,8 @@
   border: 1px solid #fdfdfd;
 }
 .topnav img {
-  margin-top:0px;
+  margin-top:30px;
+  float:left;
 }
 .topnav h1 {
   display:inline-block;
@@ -13,12 +14,13 @@
     font-size: 40px;
     color:white;
     font-family: 'Crete Round', serif;
+    background-color: #33521E;
     margin-left: 20 px;
-    width: 43%;
+    width: 47%;
 }
 .topnav nav{
   margin-top: 30px;
-    width: 43%;
+    width: 47%;
     float:right;
     list-style-type: none;
     padding: 0;
